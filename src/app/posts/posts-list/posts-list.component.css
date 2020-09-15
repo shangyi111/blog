@@ -4,12 +4,22 @@ section{
 	grid-auto-rows:auto;
 	grid-gap:10px;
 	margin:0 auto;
-	max-width: 95%;
+	max-width: 100%;
+	background-image: url("../../../assets/1.jpg");
 }
+
 
 mat-card{
 	margin:20px 0;
 	max-width: 100%;
+
+}
+mat-card:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin:20px 0;
+	max-width: 100%;
+	transform: scale(0.95);
+	transition: 0.3s;
 
 }
 
